@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>tail||head GAME</title>
+</head>
+<body>
+    <p>guess what computer is going to shoose</p>
+    <button onclick="
+    theComputerMove('head');
+    ">Head</button>
+    <button onclick="
+    theComputerMove('tail');
+    ">Tail</button>
+    <p class="js-result"></p>
+    <p class="js-score" onclick="showScore()"></p>
+    <button onclick="
+    score.win = 0
+    score.lost = 0
+    localStorage.removeItem('score')
+    showScore()
+    ">reset</button>
+</body>
+<script>
+    let score = JSON.parse(localStorage.getItem('score'))||{
+        win : 0,
+        lost : 0
+    }
+    showScore();
+    function theComputerMove(theFace){
+        let result = '';
+        let computerMove = Math.random();
+        if (theFace === 'tail' && computerMove <= 0.5){
+           result = 'lost';
+        }else if(theFace === 'tail' && computerMove > 0.5){
+            result = 'won';
+        }else if (theFace === 'head' && computerMove <= 0.5){
+           result = 'lost';
+        }else if(theFace === 'head' && computerMove > 0.5){
+            result = 'won';
+        }
+        if (result === 'lost'){
+            score.lost += 1;
+        }else if (result === 'won'){
+            score.win += 1;
+        }
+        localStorage.setItem('score' ,JSON.stringify(score));
+        document.querySelector('.js-result').innerHTML = `you ${result}`;
+    }
+    function showScore(){
+        document.querySelector('.js-score')
+            .innerHTML = `SCORE =  wins: ${score.win} // losses ${score.lost}`;
+    }
+</script>
+</html>
