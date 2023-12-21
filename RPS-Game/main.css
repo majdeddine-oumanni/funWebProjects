@@ -1,3 +1,55 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
 button{
-    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.rock{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(25, 25, 25);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.paper{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(25, 25, 25);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.scissors{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(25, 25, 25);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.result{
+    font-size: 25px;
+}
+.move{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.resetButton{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(196, 190, 190);
 }
