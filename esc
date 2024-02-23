@@ -1,0 +1,66 @@
+[33mcommit 2271bc54655ec4fbeb7e3a222ad0c9525ad196a0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Thu Dec 21 23:09:18 2023 +0100
+
+    last version
+
+[33mcommit 55429b59fd5bdce083ddf20215061a56be2f0f45[m
+Merge: f403e1c ee348c6
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Thu Dec 21 23:08:26 2023 +0100
+
+    Merge branch 'master' of https://github.com/majdeddine-oumanni/funWebProjects
+
+[33mcommit f403e1c12e317e9cccc18ec271f94aba88f1ed7a[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Thu Dec 21 23:05:52 2023 +0100
+
+    final
+
+[33mcommit ee348c6a144526e8c25be51296527563bd4ccb60[m
+Author: majd eddine oumanni <149754187+majdeddine-oumanni@users.noreply.github.com>
+Date:   Thu Dec 21 15:27:32 2023 +0100
+
+    Update main.html
+
+[33mcommit 4eac5f2e7aba8dfdfd784da58ba37fdc2f4b6b4f[m
+Author: majd eddine oumanni <149754187+majdeddine-oumanni@users.noreply.github.com>
+Date:   Thu Dec 21 15:27:09 2023 +0100
+
+    Update main.css
+
+[33mcommit 3df0406a6288d9f9d77224c7f5ecb10b53e327ad[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Thu Dec 21 15:24:56 2023 +0100
+
+    final
+
+[33mcommit 28660a7e2c4910144621ae95aabcfa93da8cfe77[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Sun Dec 17 09:32:30 2023 +0100
+
+    head or tail Guess game
+
+[33mcommit 73ff97cfbc7e48b22837a5bbc9cbf32f08b9af5c[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Sun Dec 17 07:03:47 2023 +0100
+
+    head or tail Guess game
+
+[33mcommit d949e1abb0fa7fe2376b7247c14bd3cc7b25140c[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Sun Dec 17 07:00:56 2023 +0100
+
+    rock paper scissor game
+
+[33mcommit 00139aedab0a73baf5359471a5e644e363c44246[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Sun Dec 17 05:45:45 2023 +0100
+
+    adding and substracting game
+
+[33mcommit ae7d98a16aecbd2155d671c6c47b19d3be09a59e[m
+Author: majdeddine oumanni <majdeddineoumanni@gmail.com>
+Date:   Sat Dec 16 16:39:47 2023 +0100
+
+    adding and substracting game
