@@ -1,0 +1,77 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    vertical-align: top;
+    column-gap: 12px;
+    row-gap: 20px;
+    margin-right: 12px;
+    margin-left: 40px;
+}
+.video-div{
+    height: 100%;
+}
+@media (max-width: 900px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.thumbnail{
+    height: 230Px;
+    position: relative;
+}
+.video-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.video-info{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    margin-top: 8px;
+
+}
+.profile-section{
+    vertical-align: top;
+    margin-top: 0;
+
+}
+.video-describtion{
+    font-family: arial;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.channel-name{
+    font-family: arial;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.channel-name:hover{
+    color: black;
+}
+.video-views{
+    font-family: arial;
+    font-size: 15px;
+    color: gray;
+    margin-top: 3px;
+}
+.profile-img{
+    width: 45px;
+    height: 47px;
+    border-radius: 50%;
+}
+.time{
+    background-color: rgba(0, 0, 0, 0.79);
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    color: white;
+    font-family: arial;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}

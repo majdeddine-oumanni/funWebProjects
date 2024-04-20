@@ -14,13 +14,16 @@ function outputList(){
         myInput.value = '';
 }
 /*
+    let myInput = document.querySelector('input');
+    let myList = document.querySelector('.output');
     let myArray = [];
-    let total = '';
-    myArray.push(myInput.value);
-    for(let i=0; i < myArray.length; i++){
-        total += myArray[i];
+    function appendList(){
+        let total = '';
+        myArray.push(myInput.value);
+        for(let i=0; i < myArray.length; i++){
+            total += myArray[i];
+        }
+        myList.innerHTML = `<p>${myArray.join(`<br>`)}</p>`;
+        myInput.value = '';
     }
-    myList.innerHTML = `<p>${total}</p>`;
-    myInput.value = '';
-    console.log(myArray);
 */
