@@ -1,44 +1,41 @@
-.listInput{
-    display: flex;
-    justify-content: center;
+.listParameter{
+    display: grid;
     align-items: center;
-    margin-top: 20px;
+    grid-template-columns: 200px 150px  100px;
 }
 input{
-    width: 300px;
     height: 40px;
-    border-color: rgb(26, 141, 8);
+    padding-left: 5px;
+    font-family: arial;
+    font-size: 16px;
+    margin-right: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 6px;
 }
-::placeholder{
-    color: rgb(5, 167, 5);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-style: oblique;
-    padding-left: 12px;
-}
-.subButton{
-    margin-left: 10px;
-    height: 45px;
-    width: 100px;
-    cursor: pointer;
-    background-color: rgb(2, 104, 2);
+.addButton{
+    background-color: rgb(2, 163, 2);
+    border: none;
     color: white;
-    border: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-style: oblique;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 17px;
 }
-.subButton:hover {
-    background-color: #5ecf63;
-    color: rgb(231, 237, 241);
-  }
-.output{
-    display: flex;
-    justify-content: center;
+.deleteButton{
+    background-color: rgb(255, 40, 40);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.list{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
     align-items: center;
-    color: rgb(5, 167, 5);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-style: oblique;
-    display: block;
+    max-width: 500px;
 }
